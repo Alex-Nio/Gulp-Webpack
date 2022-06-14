@@ -159,12 +159,27 @@ body {
 .img__block img, .fonts__block img {
     -webkit-animation: fadeIn;
     animation: fadeIn;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
 }
 
 .fonts__block span {
     font-family: "Lobster", sans-serif;
+}
+
+.font-awesome svg {
+    transition: all 0.5s ease;
+}
+
+.font-awesome svg:hover {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    transition: all 0.5s ease;
+}
+
+.wob_animate {
+    -webkit-animation: wobble 7s linear infinite;
+    animation: wobble 7s linear infinite;
 }
 
 .copyright {

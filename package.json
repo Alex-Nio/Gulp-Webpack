@@ -44,6 +44,7 @@
         "cssnano": "^5.0.6",
         "jquery": "^3.6.0",
         "mini-css-extract-plugin": "^1.6.0",
+        "popper.js": "^1.16.1",
         "swiper": "^6.7.1"
     }
 }
